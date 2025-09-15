@@ -98,7 +98,7 @@ const UploadPage = () => {
 
         setStatusText('Analysis complete! Redirecting...');
         console.log('data', data);
-        // navigate(`/results/${uuid}`); // optional redirect
+        navigate(`/resume/${uuid}`); // optional redirect
     };
 
     const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
